@@ -6,5 +6,5 @@ if ! [ -x "$(command -v docker)" ]; then
   exit 1
 fi
 
-# Start LocalStack using Docker Compose
+# Stop LocalStack using Docker Compose
 docker-compose down
