@@ -42,6 +42,13 @@ Include example code snippets or usage scenarios here to help users understand h
 
 ## Troubleshooting
 If you encounter issues, check the following:
+   ### bash: ./start-localstack.sh: Permission denied
+       The "Permission denied" error occurs because the shell script does not have the execute permission. You can grant execute permission to the script using the chmod command. Open your terminal and navigate to the directory where your script is located, then run the following command:  
+          ```shell
+               chmod +x start-localstack.sh
+               chmod +x deploy-terraform.sh
+               chmod +x destroy-terraform.sh
+
 
 ## Ensure that Docker is running and accessible.
 Verify that the LocalStack Docker container is up and running.
